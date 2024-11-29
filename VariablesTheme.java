@@ -4,7 +4,7 @@ public class VariablesTheme {
         int digit = 5;
         System.out.println("1.1. Цифра = " + digit);
         // Сумма чисел
-        int numbersSum += 5;
+        int numbersSum = 5 + digit;
         System.out.println("1.2. Сумма чисел = " + numbersSum);
         // Произведение чисел
         int numbersMultiplication = digit * numbersSum;
@@ -22,8 +22,8 @@ public class VariablesTheme {
         int originalNumber = 0;
         System.out.println("1.7. Исходное число = " + originalNumber);
         // процент по вкладу
-        int depositProcent = 15;
-        System.out.println("1.8. Процент по вкладу = " + depositProcent + " %");
+        int depositPersent = 15;
+        System.out.println("1.8. Процент по вкладу = " + depositPersent + " %");
         // переменная хранит символ &
         char symbolAndStorage = '&';
         System.out.println("1.9. Переменная хранит символ & = " + symbol);
@@ -34,7 +34,7 @@ public class VariablesTheme {
         String massageType = "INFO";
         System.out.println("1.11. Тип сообщения = " + massageType);
         // число нулей
-        String zerosCount = "10000";
+        String str = "10000";
         int zerosCount = str.length() - str.replaceAll("0", "").length();
         System.out.println("1.12. Число нулей = " + zerosCount);
         // уникальное число
@@ -85,6 +85,34 @@ public class VariablesTheme {
         //количество чисел в каждой строке
         int numbersEachRowCount = 100;
         System.out.println("1.28. Количество чисел в каждой строке = " + numbersEachRowCount);
+        // Boolean-переменные
+        // сотни равны?
+        boolean isEqualHundreds = 100 = 100;
+        System.out.println("\nBoolean-переменные" + "\n2.1. сотни равны? = " + isEqualHundreds);
+        // компьютер включен?
+        boolean isIncludedComputer = true;
+        System.out.println("2.2. компьютер включен? = " + isIncludedComputer);
+        // есть равные цифры?
+        boolean hasEqualDigits = false;
+        System.out.println("2.3. есть равные цифры? = " + hasEqualDigits);
+        // создано?
+        boolean isCreated = true;
+        System.out.println("2.4. создано? = " + isCreated);
+        // пустое?
+        boolean isEmpty = false;
+        System.out.println("2.5. пустое? = " + isEmpty);
+        // активное?
+        boolean isActive = true;
+        System.out.println("2.6 активное? = " + isActive);
+        // новое?
+        boolean isNew = false;
+        System.out.println("2.7 новое? = " + isNew);
+        // электронная почта действительная?
+        boolean isValidEmail = true;
+        System.out.println("2.8. электронная почта действительная? = " + isValidEmail);
+        // имеются уникальные строки?
+        boolean hasUniqueStrings = false;
+        System.out.println("2.9 имеются уникальные строки? = " + hasUniqueStrings);
 
     }
 }

@@ -10,54 +10,54 @@ public class VariablesTheme {
         int numbersMultiplication = digit * numbersSum;
         System.out.println("1.3. Произведение цифр = " + numbersMultiplication);
         // максимальное число
-        int maxDigit = 1000000;
-        System.out.println("1.4. Максимальное число = " + maxDigit);
-        //количество десятков
-        int totalTen = maxDigit / 10;
-        System.out.println("1.5. Количество десятков = " + totalTen);
-        //вес собаки
-        double weightDog = 12.5;
-        System.out.println("1.6. Вес собаки = " + weightDog + " киллограммов");
-        //исходное число
-        int startDigit = 0;
-        System.out.println("1.7. Исходное число = " + startDigit);
-        //процент по вкладу
-        int interestDeposit = 15;
-        System.out.println("1.8. Процент по вкладу = " + interestDeposit + " %");
-        //переменная хранит символ &
-        char symbol = '&';
+        int maxNumber = 1000000;
+        System.out.println("1.4. Максимальное число = " + maxNumber);
+        // количество десятков
+        int tensCount = maxNumber / 10;
+        System.out.println("1.5. Количество десятков = " + tensCount);
+        // вес собаки
+        double dogWeight = 12.5;
+        System.out.println("1.6. Вес собаки = " + dogWeight + " киллограммов");
+        // исходное число
+        int originalNumber = 0;
+        System.out.println("1.7. Исходное число = " + originalNumber);
+        // процент по вкладу
+        int depositProcent = 15;
+        System.out.println("1.8. Процент по вкладу = " + depositProcent + " %");
+        // переменная хранит символ &
+        char symbolAndStorage = '&';
         System.out.println("1.9. Переменная хранит символ & = " + symbol);
         // код ошибки
-        String error = "0x8007025d";
-        System.out.println("1.10. Код ошибки = " + error);
+        String errorCode = "0x8007025d";
+        System.out.println("1.10. Код ошибки = " + errorCode);
         // тип сообщения
-        String massage = "INFO";
-        System.out.println("1.11. Тип сообщения = " + massage);
+        String massageType = "INFO";
+        System.out.println("1.11. Тип сообщения = " + massageType);
         // число нулей
-        String str = "10000";
-        int zeros = str.length() - str.replaceAll("0", "").length();
-        System.out.println("1.12. Число нулей = " + zeros);
+        String zerosCount = "10000";
+        int zerosCount = str.length() - str.replaceAll("0", "").length();
+        System.out.println("1.12. Число нулей = " + zerosCount);
         // уникальное число
-        int uniqueDigit = 55;
-        System.out.println("1.13. Уникальное число = " + uniqueDigit);
+        int uniqueNumber = 55;
+        System.out.println("1.13. Уникальное число = " + uniqueNumber);
         // случайное число
-        int randDigit = (int)(Math.random()*100);
-        System.out.println("1.14. Случайное число = " + randDigit);
+        int randNumber = (int)(Math.random()*100);
+        System.out.println("1.14. Случайное число = " + randNumber);
         // математическое выражение
         String mathOperation = "2+2=5";
         System.out.println("1.15. Математическое выражение = " + mathOperation);
         // счет в игре
-        int scoreGame = 5;
-        System.out.println("1.16. Счет в игре = " + scoreGame);
+        int gameScore = 5;
+        System.out.println("1.16. Счет в игре = " + gameScore);
         // максимальная длина
         int maxLenght = 300;
         System.out.println("1.17. Максимальная длина = " + maxLenght + " метров");
         // пункт меню
-        String menuItem = "Картошка фри";
-        System.out.println("1.18. Пункт меню = " + menuItem);
+        String itemMenu = "Картошка фри";
+        System.out.println("1.18. Пункт меню = " + itemMenu);
         // стоимость кофе
-        int priceCoffee = 3;
-        System.out.println("1.19. Стоимость кофе = " + priceCoffee + " $");
+        int coffeePrice = 3;
+        System.out.println("1.19. Стоимость кофе = " + coffeePrice + " $");
         // дата начала
         String startDate = "13.11.2024";
         System.out.println("1.20. Дата начала = " + startDate);
@@ -65,11 +65,11 @@ public class VariablesTheme {
         int rangeEnd = Math.max(Math.max(2, 1),3);;
         System.out.println("1.21. Окончание диапазона = " + rangeEnd);
         // полное имя работника месяца
-        String fullNameEmployeeMonth = "Максим";
-        System.out.println("1.22. Полное имя работника месяца = " + fullNameEmployeeMonth);
+        String employeeMonthFullName = "Максим";
+        System.out.println("1.22. Полное имя работника месяца = " + employeeMonthFullName);
         // заголовок электронной книги
-        String titleEbook = "Clean Code";
-        System.out.println("1.23. Заголовок электронной книги = " + titleEbook);
+        String electronicBookTitle = "Clean Code";
+        System.out.println("1.23. Заголовок электронной книги = " + electronicBookTitle);
         // размер
         int size = 60;
         System.out.println("1.24. Размер = " + size + " сантиметров");
@@ -80,11 +80,11 @@ public class VariablesTheme {
         int counter = 70;
         System.out.println("1.26. Счетчик = " + counter);
         // путь до файла
-        String pathFile = "C\\Java\\VariablesTheme.java";
-        System.out.println("1.27. Путь до файла = " + pathFile);
+        String filePath = "C\\Java\\VariablesTheme.java";
+        System.out.println("1.27. Путь до файла = " + filePath);
         //количество чисел в каждой строке
-        int sumNumEachRow = 100;
-        System.out.println("1.28. Количество чисел в каждой строке = " + sumNumEachRow);
+        int numbersEachRowCount = 100;
+        System.out.println("1.28. Количество чисел в каждой строке = " + numbersEachRowCount);
 
     }
 }

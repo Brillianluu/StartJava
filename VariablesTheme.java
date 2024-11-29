@@ -26,7 +26,7 @@ public class VariablesTheme {
         System.out.println("1.8. Процент по вкладу = " + depositPersent + " %");
         // переменная хранит символ &
         char symbolAndStorage = '&';
-        System.out.println("1.9. Переменная хранит символ & = " + symbol);
+        System.out.println("1.9. Переменная хранит символ & = " + symbolAndStorage);
         // код ошибки
         String errorCode = "0x8007025d";
         System.out.println("1.10. Код ошибки = " + errorCode);
@@ -41,7 +41,7 @@ public class VariablesTheme {
         int uniqueNumber = 55;
         System.out.println("1.13. Уникальное число = " + uniqueNumber);
         // случайное число
-        int randNumber = (int)(Math.random()*100);
+        int randNumber = (int) (Math. random() * 100);
         System.out.println("1.14. Случайное число = " + randNumber);
         // математическое выражение
         String mathOperation = "2+2=5";
@@ -62,7 +62,7 @@ public class VariablesTheme {
         String startDate = "13.11.2024";
         System.out.println("1.20. Дата начала = " + startDate);
         // окончание диапазона
-        int rangeEnd = Math.max(Math.max(2, 1),3);;
+        int rangeEnd = Math.max(Math.max(2, 1), 3);;
         System.out.println("1.21. Окончание диапазона = " + rangeEnd);
         // полное имя работника месяца
         String employeeMonthFullName = "Максим";
@@ -82,12 +82,12 @@ public class VariablesTheme {
         // путь до файла
         String filePath = "C\\Java\\VariablesTheme.java";
         System.out.println("1.27. Путь до файла = " + filePath);
-        //количество чисел в каждой строке
+        // количество чисел в каждой строке
         int numbersEachRowCount = 100;
         System.out.println("1.28. Количество чисел в каждой строке = " + numbersEachRowCount);
         // Boolean-переменные
         // сотни равны?
-        boolean isEqualHundreds = 100 = 100;
+        boolean isEqualHundreds = 100 == 100;
         System.out.println("\nBoolean-переменные" + "\n2.1. сотни равны? = " + isEqualHundreds);
         // компьютер включен?
         boolean isIncludedComputer = true;
@@ -103,16 +103,16 @@ public class VariablesTheme {
         System.out.println("2.5. пустое? = " + isEmpty);
         // активное?
         boolean isActive = true;
-        System.out.println("2.6 активное? = " + isActive);
+        System.out.println("2.6. активное? = " + isActive);
         // новое?
         boolean isNew = false;
-        System.out.println("2.7 новое? = " + isNew);
+        System.out.println("2.7. новое? = " + isNew);
         // электронная почта действительная?
         boolean isValidEmail = true;
         System.out.println("2.8. электронная почта действительная? = " + isValidEmail);
         // имеются уникальные строки?
         boolean hasUniqueStrings = false;
-        System.out.println("2.9 имеются уникальные строки? = " + hasUniqueStrings);
+        System.out.println("2.9. имеются уникальные строки? = " + hasUniqueStrings);
 
     }
 }

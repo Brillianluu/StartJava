@@ -2,7 +2,7 @@ public class VariablesTheme {
     public static void main(String[] args) {
         // цифра
         int digit = 5;
-        System.out.println("1.1. Цифра = " + digit);
+        System.out.println("Разные переменные\n1.1. Цифра = " + digit);
         // Сумма чисел
         int numbersSum = 5 + digit;
         System.out.println("1.2. Сумма чисел = " + numbersSum);
@@ -22,8 +22,8 @@ public class VariablesTheme {
         int originalNumber = 0;
         System.out.println("1.7. Исходное число = " + originalNumber);
         // процент по вкладу
-        int depositPersent = 15;
-        System.out.println("1.8. Процент по вкладу = " + depositPersent + " %");
+        int depositPercent = 15;
+        System.out.println("1.8. Процент по вкладу = " + depositPercent + " %");
         // переменная хранит символ &
         char symbolAndStorage = '&';
         System.out.println("1.9. Переменная хранит символ & = " + symbolAndStorage);
@@ -53,8 +53,8 @@ public class VariablesTheme {
         int maxLenght = 300;
         System.out.println("1.17. Максимальная длина = " + maxLenght + " метров");
         // пункт меню
-        String itemMenu = "Картошка фри";
-        System.out.println("1.18. Пункт меню = " + itemMenu);
+        String menuItem = "Картошка фри";
+        System.out.println("1.18. Пункт меню = " + menuItem);
         // стоимость кофе
         int coffeePrice = 3;
         System.out.println("1.19. Стоимость кофе = " + coffeePrice + " $");
@@ -113,7 +113,28 @@ public class VariablesTheme {
         // имеются уникальные строки?
         boolean hasUniqueStrings = false;
         System.out.println("2.9. имеются уникальные строки? = " + hasUniqueStrings);
-
+        // Аббревиатуры 
+        // старый universally unique identifier
+        String oldUuId = "3422b448-2460-4fd2-9183-8000de6f8343";
+        System.out.println("\nАббревиатуры \n3.1. старый universally unique identifier = " + 
+                oldUuId);
+        // производитель оперативной памяти
+        String ramManufacturer = "Kingston";
+        System.out.println("3.2. производитель оперативной памяти = " + ramManufacturer);
+        // емкость жесткого диска
+        int hddCapacity = 32;
+        System.out.println("3.3. емкость жесткого диска = " + hddCapacity + " TB");
+        // протокол передачи гипертекста
+        String http = "HTTP";
+        System.out.println("3.4. протокол передачи гипертекста = " + http);
+        // сокращенный uniform resource locator
+        String shortUrl = "https://shorturl.at/e3DxH";
+        System.out.println("3.5. сокращенный uniform resource locator = " + shortUrl);
+        // новый идентификатор клиента
+        int newClientId = 4556;
+        System.out.println("3.6. новый идентификатор клиента = " + newClientId);
+        // american standard code for information interchange
+        String ascii = "ASCII (American Standard Code for Information Interchange)";
+        System.out.println("3.7. american standard code for information interchange= " + ascii);
     }
 }
-

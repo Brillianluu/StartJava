@@ -73,11 +73,11 @@ public class VariablesTheme {
         int numberV = 2;
         int numberA = 5;
         System.out.println("\n5.Перестановка значений переменных:" + 
-            "\nисходные значения переменных " + numberV + "," + numberA);
+                "\nисходные значения переменных " + numberV + "," + numberA);
         int numberD = numberV;
         numberV = numberA;
         numberA = numberD;
-        System.out.println("с помощью третьей переменной " + numberV + "," + numberA);//v=5 a=2
+        System.out.println("с помощью третьей переменной " + numberV + "," + numberA);
         numberV += numberA;
         numberA = numberV - numberA; 
         numberV = numberV - numberA;
@@ -86,11 +86,10 @@ public class VariablesTheme {
         numberA ^= numberV;
         numberV ^= numberA;
         System.out.println("с помощью побитовой операции ^ " + numberV + "," + numberA);
-        //36, 42, 64, 124, 126
         char dollar = '$';
         char asterisk = '*';
         char atSign = '@';
-        char pipeline = '|' ;
+        char pipeline = '|';
         char tilde = '~';
         System.out.println("\n6.Вывод символов и их кодов:\n" + (int) dollar + "-" + dollar);
         System.out.println((int) asterisk + "-" + asterisk);
@@ -105,10 +104,10 @@ public class VariablesTheme {
         System.out.println("\n7.Вывод в консоль ASCII-арт Дюка:\n    " + slash + backSlash);
         System.out.println("   " + slash + "  " + backSlash);
         System.out.println("  " + slash + underscore + leftPparenthesis + " " + rightParenthesis +
-            backSlash);
+                backSlash);
         System.out.println(" " + slash + "      " + backSlash);
         System.out.println("" + slash + underscore + underscore + underscore + underscore + 
-            slash + backSlash + underscore + underscore + backSlash);
+                slash + backSlash + underscore + underscore + backSlash);
         int oneTwoThree = 123;
         int hundreds = oneTwoThree / 100;
         int dozens = oneTwoThree / 10 % 10;
@@ -116,19 +115,14 @@ public class VariablesTheme {
         int multiplication = hundreds * dozens * units;
         int addition = hundreds + dozens + units;
         System.out.println("\n8.Манипуляции с сотнями, десятками и единицами числа:\n" + 
-            "Число " + oneTwoThree + " содержит:\n" + "  сотен - " + hundreds + 
-            "\n  десятков - " + dozens + "\n  единиц - " + units + "\nСумма разрядов = " + 
-            addition + "\nПроизведение разрядов = " + multiplication);
-         int s = 86399;// 
-         int seconds = s % 60; //1 час 3599/60 = 59
-         int hours = s / 3600 % 60;// 23.999 - 0.399
-         int minutes = s / 60 % 60;
-         System.out.println("\n9.Перевод секунд в часы, минуты и секунды:\n" + 
-            hours + ":" + minutes + ":" + seconds);
-
-
-
-
-
+                "Число " + oneTwoThree + " содержит:\n" + "  сотен - " + hundreds + 
+                "\n  десятков - " + dozens + "\n  единиц - " + units + "\nСумма разрядов = " + 
+                addition + "\nПроизведение разрядов = " + multiplication);
+        int originalSeconds = 86399;
+        int seconds = originalSeconds % 60;
+        int hours = originalSeconds / 3600 % 60;
+        int minutes = originalSeconds / 60 % 60;
+        System.out.println("\n9.Перевод секунд в часы, минуты и секунды:\n" + 
+                hours + ":" + minutes + ":" + seconds);
     }
 }
